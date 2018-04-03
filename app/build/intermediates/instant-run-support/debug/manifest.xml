@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ravi.dairy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.ravi.dairy.Main2Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ravi.dairy.MainActivity" />
+        <activity android:name="com.example.ravi.dairy.Registeractivity" />
+        <activity android:name="com.example.ravi.dairy.Product" />
+        <activity android:name="com.example.ravi.dairy.Milk" />
+        <activity android:name="com.example.ravi.dairy.Butter" />
+        <activity android:name="com.example.ravi.dairy.Cheese" />
+        <activity android:name="com.example.ravi.dairy.Curd" />
+        <activity android:name="com.example.ravi.dairy.OrderDetails" />
+        <activity android:name="com.example.ravi.dairy.product2" />
+        <activity android:name="com.example.ravi.dairy.Main3Activity" />
+        <activity android:name="com.example.ravi.dairy.admin_page" />
+        <activity android:name="com.example.ravi.dairy.buttermilk" />
+        <activity android:name="com.example.ravi.dairy.ghee" />
+        <activity android:name="com.example.ravi.dairy.fruits" />
+        <activity android:name="com.example.ravi.dairy.vegi" />
+        <activity android:name="com.example.ravi.dairy.paneer" />
+        <activity android:name="com.example.ravi.dairy.orange" />
+        <activity android:name="com.example.ravi.dairy.tomato" />
+        <activity
+            android:name="com.example.ravi.dairy.Nevigate"
+            android:label="@string/title_activity_nevigate"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.ravi.dairy.About" />
+        <activity android:name="com.example.ravi.dairy.apple" />
+        <activity android:name="com.example.ravi.dairy.strawberry" />
+        <activity android:name="com.example.ravi.dairy.Grapes" />
+        <activity android:name="com.example.ravi.dairy.Bannana" />
+        <activity android:name="com.example.ravi.dairy.onione" />
+        <activity android:name="com.example.ravi.dairy.Potato" />
+        <activity android:name="com.example.ravi.dairy.graddish" />
+        <activity android:name="com.example.ravi.dairy.cabbage" />
+        <activity android:name="com.example.ravi.dairy.total" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.example.ravi.dairy.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

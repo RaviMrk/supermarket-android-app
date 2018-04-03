@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/pro"
+    >
+
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/Milk"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="MILK"
+
+        android:background="@drawable/border"
+        android:textColor="#000"
+        android:layout_above="@+id/Butter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp" />
+
+    <TextView
+        android:id="@+id/Butter"
+        android:textColor="#fff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/border"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="BUTTER"
+        android:layout_above="@+id/Curd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp"
+        android:layout_toLeftOf="@+id/milkqty"
+        android:layout_toStartOf="@+id/milkqty" />
+
+    <TextView
+        android:id="@+id/Curd"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="CURD"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/Butter"
+        android:layout_alignEnd="@+id/Butter" />
+
+    <TextView
+        android:id="@+id/Cheese"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="CHEESE"
+        android:layout_below="@+id/Curd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignRight="@+id/Curd"
+        android:layout_alignEnd="@+id/Curd" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="YOUR ORDER DETAILS"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvmsg"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="13dp"
+        android:text=""
+        android:background="@drawable/border"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/milkqty"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/Milk"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:background="#bdbdbd"
+        android:layout_toEndOf="@+id/Milk"
+        android:layout_toRightOf="@+id/Milk"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/butterqty"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:background="#bdbdbd"
+
+        android:layout_alignLeft="@+id/milkqty"
+        android:layout_alignStart="@+id/milkqty"
+        android:layout_alignTop="@+id/Butter"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/curdqty"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:background="#bdbdbd"
+        android:layout_alignLeft="@+id/butterqty"
+        android:layout_alignStart="@+id/butterqty"
+        android:layout_alignTop="@+id/Curd"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/cheeseqty"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/Cheese"
+        android:layout_alignLeft="@+id/curdqty"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/curdqty"
+        android:layout_alignTop="@+id/Cheese"
+        android:background="#bdbdbd"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detail"
+        android:layout_marginBottom="23dp"
+        android:text="Place your order"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="36dp"
+        android:text="PRODUCT"
+        android:background="@drawable/border"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:layout_above="@+id/milkqty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/border"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center"
+        android:textStyle="italic"
+
+        android:textColor="#fff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView17"
+        android:text="QTY"
+        android:layout_alignLeft="@+id/milkqty"
+        android:layout_alignStart="@+id/milkqty" />
+
+
+</RelativeLayout>

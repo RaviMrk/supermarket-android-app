@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/baground"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi.dairy.orange"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/orange"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView42"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="59dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Orange"
+        android:textColor="#000"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="RS 30"
+        android:textColor="#000"
+        android:layout_marginStart="42dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView43"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="42dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#000"
+        app:layout_constraintRight_toLeftOf="@+id/textView42"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="203dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Quantity= 4 oranges
+Fresho brings you an assortment of 4 imported oranges, which make for an ideal gift during the festive season or even for making desserts and juices. These imported oranges are much bigger in size as compared to the Indian counterpart. You will notice their skin is much brighter and vibrant too. Easy to peel, these oranges are a healthy snack alternative."
+        android:textColor="#000"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="49dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="49dp"
+        android:layout_marginRight="49dp" />
+
+    <Button
+        android:id="@+id/orangeadd"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="ADD"
+        android:layout_marginEnd="16dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/orangeqty"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:id="@+id/orangeqty"
+        android:layout_width="79dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginEnd="84dp"
+        android:hint="Qty"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView44"
+        android:layout_marginStart="84dp"
+        app:layout_constraintRight_toRightOf="@+id/textView44"
+        android:layout_marginTop="37dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView42"
+        android:layout_marginLeft="84dp"
+        android:layout_marginRight="84dp" />
+</android.support.constraint.ConstraintLayout>

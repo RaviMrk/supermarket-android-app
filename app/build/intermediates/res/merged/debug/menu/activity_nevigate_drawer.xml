@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/product_detail"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Order Details" />
+        <item
+            android:id="@+id/dairy"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Dairy Product" />
+        <item
+            android:id="@+id/fruits"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fruit_Product" />
+        <item
+            android:id="@+id/vegitable"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Vegetable Product" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="logout" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="about" />
+        </menu>
+    </item>
+
+</menu>

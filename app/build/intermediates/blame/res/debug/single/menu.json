@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\nevigate.xml",
+        "source": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\src\\main\\res\\menu\\nevigate.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_nevigate_drawer.xml",
+        "source": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\src\\main\\res\\menu\\activity_nevigate_drawer.xml"
+    }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    tools:context="com.example.ravi.dairy.About"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="132dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="This is an e commerce app developed for supermarkets. The products available in the shop will be displayed on the app along with its details. A user can order products which will be delivered to the user on the registered address. The delivery service is restricted within a limited area depending on the locality of the shop. In order to avail the services of this app , a user needs to register on the app with the required  details."
+        android:layout_marginStart="7dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp" />
+</android.support.constraint.ConstraintLayout>

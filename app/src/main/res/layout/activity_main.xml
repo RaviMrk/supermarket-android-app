@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/baground"
+    >
+
+    <EditText
+        android:id="@+id/etNname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/bLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:background="#C0C0C0"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvRegisterhere"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Register Here"
+        android:layout_marginTop="51dp"
+        android:background="#000"
+        android:layout_below="@+id/bLogin"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+#Wed Oct 25 09:59:01 IST 2017
+base.0=C\:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_555578edf73344ed9f1ff7dbf25c1b861da8944b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_749c319c7649538bee419a6ca96ae60aada1ccc1\\classes.dex
+base.1=C\:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_749c319c7649538bee419a6ca96ae60aada1ccc1
+file.0=C\:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_555578edf73344ed9f1ff7dbf25c1b861da8944b\\classes.dex

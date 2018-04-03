@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\RAVI\\.android\\build-cache\\aae7ed30d4d12ad90c35b53ea439c768e8fd0f51\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\RAVI\\.android\\build-cache\\aae7ed30d4d12ad90c35b53ea439c768e8fd0f51\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\RAVI\\.android\\build-cache\\aae7ed30d4d12ad90c35b53ea439c768e8fd0f51\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\RAVI\\AndroidStudioProjects\\Dairy\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\RAVI\\.android\\build-cache\\aae7ed30d4d12ad90c35b53ea439c768e8fd0f51\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi.dairy.apple"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="@drawable/baground"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/apple"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/appleqty"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="61dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple" android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RS 60 "
+        android:textColor="#000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_marginStart="42dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="42dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#000"
+        android:layout_marginStart="28dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="41dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView40"
+        android:layout_marginLeft="28dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#000"
+        android:text="Quantity= 1 kg
+Fresho is our brand of fresh fruits and vegetables which are individually handpicked everyday by our experienced and technically competent buyers. Our buying, storing and packaging processes are tailored to ensure that only the fresh, nutrient dense, healthy and delicious produce reaches your doorstep. We guarantee the quality of all Fresho products. If you're not satisfied with the freshness of the items, you can hand them back to our Customer Experience Executive (CEE) for a full refund. Royal gala apples are bright red, thin skinned, white fleshed fruits with a mild sweet flavour and are native to New Zealand. "
+        android:layout_marginStart="5dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:id="@+id/appleqty"
+        android:layout_width="63dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="QTY"
+        android:inputType="numberDecimal"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="245dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="245dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/appleadd"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="14dp"
+        android:text="ADD"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="21dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        android:layout_marginRight="14dp" />
+
+</android.support.constraint.ConstraintLayout>
